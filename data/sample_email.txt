@@ -1,0 +1,8 @@
+Name: Rishi Srivastava
+Email: rishisrivastavaa1803@gmail.com
+Skills: Python, Machine Learning, Redis, PDF Parsing
+
+Project:
+Title: AI Multi-Agent System
+Status: In Progress
+Description: Builds an intelligent system to route documents (PDF, JSON, Email) to proper agents.

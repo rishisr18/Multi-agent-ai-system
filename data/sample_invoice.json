@@ -1,0 +1,10 @@
+{
+  "name": "Rishi Srivastava",
+  "email": "rishisrivastavaa1803@gmail.com",
+  "skills": ["Python", "Machine Learning", "Redis", "PDF Parsing"],
+  "project": {
+    "title": "AI Multi-Agent System",
+    "status": "In Progress",
+    "description": "Builds an intelligent system to route documents (PDF, JSON, Email) to proper agents."
+  }
+}
