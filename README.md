@@ -36,5 +36,36 @@ A modular AI system that accepts inputs in **PDF**, **JSON**, or **Email (text)*
 
 ---
 
+## Project Structure
 
+multi-agent-ai-system/
+│
+├── agents/
+│ ├── classifier_agent.py
+│ ├── json_agent.py
+│ └── email_agent.py
+│
+├── memory/
+│ └── memory_store.py
+│
+├── utils/
+│ ├── llm.py # LLM interface using Ollama subprocess calls
+│ └──file_parser.py # PDF, JSON, Email parsing utilities
+│ 
+│
+├── streamlit_app.py # Streamlit frontend UI
+├── app.py # Main orchestration and routing logic
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
+
+
+
+
+Sample Input Files
+data/sample.pdf — Sample PDF document
+
+data/sample.json — Structured JSON data
+
+data/sample_email.txt — Raw email content (headers + body text)
 
